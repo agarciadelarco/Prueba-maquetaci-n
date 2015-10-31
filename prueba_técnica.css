@@ -1,0 +1,17 @@
+.navbar-nav>li {
+      float: none;
+}
+
+#footer-title {
+	text-align: center;
+}
+
+.footer-col {
+	text-align: center;
+	display:inline-block;
+}
+
+.heading-col {
+	display: inline-table;
+    padding-left: 15px;
+}
