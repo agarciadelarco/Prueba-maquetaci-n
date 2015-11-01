@@ -40,6 +40,46 @@ a:active {
       float: none;
 }
 
+.menu-item {
+	margin: 0;
+	padding: 0;
+ 	background: #999;
+  	width: 175px;
+  	line-height: 3;
+}
+
+.title-list {
+	margin: 0;
+	background: #333;
+	padding-left: 12px;
+}
+
+.list-catg {
+	margin: 0px;
+  	padding: 0px;
+  	height: 0px;
+  	list-style-type: none;
+  	overflow: hidden;
+  	-webkit-transition: height 1s ease;
+    -moz-transition: height 1s ease;
+    -o-transition: height 1s ease;
+    -ms-transition: height 1s ease;
+    transition: height 1s ease;
+}
+
+.menu-item:hover .list-catg {
+  height: 126px;
+}
+
+.list-catg a {
+	margin-left: 12px;
+	display: block;
+}
+
+.list-catg li:hover {
+  background: #666;
+}
+
 footer {
 	background: #333;
 	color: #FFF;
