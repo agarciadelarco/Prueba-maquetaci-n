@@ -106,21 +106,10 @@ a:active {
 /* Catalogue */
 
 .catl {
-	/*width: 310px;*/
 	display: block;
 }
 
-/*
 .prod-row {
-	width: 125px;
-	height: 175px;
-	padding: 0;
-	margin: 5px 15px;
-}
-*/
-
-.prod-row {
-	/*width: 125px;*/
 	height: 175px;
 	margin: 5px 15px;
 	text-align: center;
